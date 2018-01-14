@@ -21,14 +21,16 @@ div {
 
 p {
   display: block;
+  text-align: center;
 }
 
 h2 {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
+  padding-bottom: 15px;
 }
 
 h3 {
@@ -46,6 +48,15 @@ h4 {
   font-weight: bold;
   text-align: center;
 }
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
 
 nav span {
   display: inline-block;
@@ -91,9 +102,9 @@ header nav {
 /* Top Content */
 
 .content {
-  display: block;
-  width: 1232px;
-  margin: 0 auto 78px auto;
+  width: 1200px;
+  margin: auto;
+  opacity: 0.9;
   padding-top: 70px;
 }
 
@@ -104,7 +115,7 @@ background-image: url("resources/images/img-tea-cozy-logo.png").
 HOW DO I GET IMAGES TO SHOW UP IN CSS WHEN ON A LOCAL BUILD? I could only view the image when I did this path in the HTML.*/
   height: 700px;
   background-repeat: no-repeat;
-  width: 1000px;
+  width: 1200px;
   margin: auto;
 }
 
@@ -130,6 +141,7 @@ HOW DO I GET IMAGES TO SHOW UP IN CSS WHEN ON A LOCAL BUILD? I could only view t
 
 .gallery-photos img{
   display: block;
+  border-radius: 25px;
   height: 200px;
   margin: 10px;
 }
@@ -145,10 +157,10 @@ HOW DO I GET IMAGES TO SHOW UP IN CSS WHEN ON A LOCAL BUILD? I could only view t
 #locations{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
+  width: 1200px;
   background-repeat: no-repeat;
   padding-top: 70px;
   margin: auto;
-  align-items: center;
 }
 
 #locations .flex-box-locations{
@@ -168,10 +180,12 @@ HOW DO I GET IMAGES TO SHOW UP IN CSS WHEN ON A LOCAL BUILD? I could only view t
 
 .addresses{
   background-color: black;
+  border-radius: 25px;
+  border: 3px solid whitesmoke;
   opacity: 1.0;
   padding: 10px;
   margin: 5px 20px;
-  flex-basis: 280px;
+  flex-basis: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -180,31 +194,21 @@ HOW DO I GET IMAGES TO SHOW UP IN CSS WHEN ON A LOCAL BUILD? I could only view t
 /* Contact */
 #contact{
   height: 200px;
-  padding-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 2px;
+}
+
+.logo-2 {
+  margin: auto;
+  height 50px;
+  width: 12.5%;
+  padding: 10px;
 }
 
 /* Footer */
 
 footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 200px;
-  margin: auto;
-}
-
-footer .title {
-  display: inline-block;
-  padding-right: 25px;
-  border-right: 2px solid white;
-  font-family: "Georgia", serif;
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
-}
-.copyright{
   text-align: left;
   padding-left: 20px;
+  padding-bottom: 50px;
 }
