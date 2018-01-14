@@ -181,7 +181,7 @@ HOW DO I GET IMAGES TO SHOW UP IN CSS WHEN ON A LOCAL BUILD? I could only view t
 .addresses{
   background-color: black;
   border-radius: 25px;
-  border: 3px solid whitesmoke;
+  border: 3px solid seashell;
   opacity: 1.0;
   padding: 10px;
   margin: 5px 20px;
